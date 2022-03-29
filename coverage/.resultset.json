@@ -1,0 +1,68 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/haroonfatih/Projects/BankTechTest/spec/bank_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/haroonfatih/Projects/BankTechTest/lib/bank.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          4,
+          4,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1648546086
+  }
+}

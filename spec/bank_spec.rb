@@ -23,4 +23,12 @@ describe 'Bank' do
       expect(bank.balance).to eq -1000
     end
   end
+  context 'Open a bank account credit 1000.00 and widthdraw 500 and see a balance of 500.00' do
+    it '' do
+      bank = Bank.new
+      bank.deposit(1000)
+      bank.widthdrew(500)
+      expect(bank.balance).to eq 500
+    end
+  end
 end

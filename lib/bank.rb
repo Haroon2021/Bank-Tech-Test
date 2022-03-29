@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Bank
   def initialize
     @balance = 0
@@ -24,8 +22,16 @@ class Bank
     @statementarray[0].push(date)
   end
 
+# Statement mentod here for testing purposes
   def statement
     @statementarray 
   end
+# To work on
+  # def printstatement
+  #   numberoftransactions = @statementarray[0].length
+  #   @statementarray.each do |item|
+  #     puts @statementarray[numberoftransactions][0]
+  #   end
+  # end
 
 end
