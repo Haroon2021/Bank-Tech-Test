@@ -25,7 +25,7 @@ class Bank
     puts "date || credit || debit || balance"
     @statementarray.reverse
     @statementarray.each do |item|
-      puts item
+      puts item[0]+item[1]+item[2].to_s+item[3].to_s+item[4].to_s
     end
   end
 
