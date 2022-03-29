@@ -8,12 +8,12 @@ class Bank
 
   def deposit(amount_deposited,date)
     @balance += amount_deposited
-    @statementarray.insert(0,[date, " || ", amount_deposited , " ||   || ", @balance]) 
+    @statementarray.insert(0,[date, " || ", '%.2f' % amount_deposited , " ||   || ", '%.2f' % @balance]) 
   end
 
   def widthdrew(amount_widthdrew,date)
     @balance -= amount_widthdrew
-    @statementarray.insert(0,[date," ||   || ", amount_widthdrew," || ", @balance]) 
+    @statementarray.insert(0,[date," ||   || ", '%.2f' % amount_widthdrew ," || ", '%.2f' % @balance]) 
   end
 
 # Statement mentod here for testing purposes
